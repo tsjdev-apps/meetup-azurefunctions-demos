@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsDemo", "AzureFunctionsDemo\AzureFunctionsDemo.csproj", "{4CDE9C1B-E66B-4AB5-A6BC-F7280F93C875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDE9C1B-E66B-4AB5-A6BC-F7280F93C875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDE9C1B-E66B-4AB5-A6BC-F7280F93C875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDE9C1B-E66B-4AB5-A6BC-F7280F93C875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDE9C1B-E66B-4AB5-A6BC-F7280F93C875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308D6382-6CAB-4B12-A282-2D847CF09665}
+	EndGlobalSection
+EndGlobal
