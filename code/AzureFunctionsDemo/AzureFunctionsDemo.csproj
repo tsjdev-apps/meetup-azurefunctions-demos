@@ -7,6 +7,8 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.14" />
     <PackageReference Include="Microsoft.ProjectOxford.Face" Version="1.4.0" />
     <PackageReference Include="Microsoft.ProjectOxford.Vision" Version="1.0.393" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="TweetinviAPI" Version="3.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
