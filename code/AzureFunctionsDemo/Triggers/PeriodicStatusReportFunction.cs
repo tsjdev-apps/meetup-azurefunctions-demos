@@ -7,7 +7,7 @@ namespace AzureFunctionsDemo.Triggers
 {
     public static class PeriodicStatusReportFunction
     {
-        [FunctionName("StatusReport")]
+        [FunctionName("PeriodicStatusReportFunction")]
         public static void Run([TimerTrigger("0 */1 * * * *", RunOnStartup = true)]TimerInfo myTimer, TraceWriter log)
         {
             var fromEmail = GetEnvironmentVariable("statusReportFromMail");
