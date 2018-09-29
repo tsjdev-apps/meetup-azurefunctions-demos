@@ -40,7 +40,7 @@ and the following json for v2 of the runtime:
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "statusReportFromMail": "",
     "statusReportToMail": "",
     "statusReportMailPassword": "",
