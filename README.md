@@ -10,7 +10,7 @@ During the Meetup *Serverless Computing - just a hype? An introduction to Azure 
 
 To be able to run the sample locally on your machine you need to clone the repo and add a file `local.settings.json` in the root path of the project.
 
-Than you need to provide data like shown in the following structure:
+Than you need to provide data like shown in the following structure if your are using v1 of the runtime:
 
 ```json
 {
@@ -32,6 +32,24 @@ Than you need to provide data like shown in the following structure:
   }
 }
 ```
+
+and the following json for v2 of the runtime:
+
+```json
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+    "statusReportFromMail": "",
+    "statusReportToMail": "",
+    "statusReportMailPassword": "",
+    "statusReportHost": "",
+    "statusReportPort": "",
+  }
+}
+```
+
 
 The values `statusReportFromMail`, `statusReportToMail`, `statusReportMailPassword`, `statusReportHost` and `statusReportPort` are needed for the `PeriodicStatusReportFunction` to send every minute an email to a provided mail address.
 
